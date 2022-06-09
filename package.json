@@ -1,0 +1,49 @@
+{
+  "name": "socialapp",
+  "version": "1.0.0",
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^13.0.0",
+    "@react-native-async-storage/async-storage": "~1.17.3",
+    "@react-native-community/masked-view": "^0.1.11",
+    "@react-native-firebase/app": "^14.9.4",
+    "@react-native-firebase/auth": "^14.9.4",
+    "@react-native-firebase/firestore": "^14.9.4",
+    "@react-native-firebase/storage": "^14.9.4",
+    "@react-native-google-signin/google-signin": "^7.2.2",
+    "@react-navigation/bottom-tabs": "^6.3.1",
+    "@react-navigation/native": "^6.0.10",
+    "@react-navigation/stack": "^6.2.1",
+    "expo": "~45.0.0",
+    "expo-app-loading": "~2.0.0",
+    "expo-font": "~10.1.0",
+    "expo-splash-screen": "~0.15.1",
+    "expo-status-bar": "~1.3.0",
+    "moment": "^2.29.3",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-native": "0.68.2",
+    "react-native-action-button": "^2.8.5",
+    "react-native-fbsdk": "^3.0.0",
+    "react-native-gesture-handler": "~2.2.1",
+    "react-native-gifted-chat": "^0.16.3",
+    "react-native-image-crop-picker": "^0.37.3",
+    "react-native-onboarding-swiper": "^1.2.0",
+    "react-native-reanimated": "^2.8.0",
+    "react-native-safe-area-context": "4.2.4",
+    "react-native-screens": "~3.11.1",
+    "react-native-web": "0.17.7",
+    "reanimated-bottom-sheet": "^1.0.0-alpha.22",
+    "styled-components": "^5.3.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9"
+  },
+  "private": true
+}
